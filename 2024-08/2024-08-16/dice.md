@@ -1,0 +1,90 @@
+# DiceDB/dice安全风险及SBOM
+
+## 基础信息
+
+项目徽章：
+
+[![Security Status](https://www.murphysec.com/platform3/v31/badge/1824149447751356416.svg)](https://www.murphysec.com/console/report/1812552545194786816/1824149447751356416)
+
+> 点击徽章可查看详细项目安全报告
+
+仓库描述：A drop-in replacement of Redis with SQL-based realtime reactivity.
+
+仓库地址：[https://github.com/DiceDB/dice](https://github.com/DiceDB/dice)
+
+| star：2721 | watch：23 | fork：355 |
+| ----------- | -------------- | ------------ |
+| 所有者：Organization | 更新时间：2024-08-15 21:18:27 | 许可证：NOASSERTION |
+| 最近检测时间： | 组件总数： | 漏洞总数： |
+
+
+
+
+## 漏洞列表
+
+| 漏洞名称 | 漏洞类型 | MPS编号 | CVE编号 | 漏洞等级 |
+| ------- | ------ | ------- | ------ | ----- |
+
+
+
+
+
+## 缺陷组件
+
+| 组件名称 | 版本 | 最小修复版本 | 依赖关系 | 修复建议 |
+| -------- | ---- | ------------ | -------- | -------- |
+
+
+
+
+
+## 许可证风险
+
+| 许可证类型 | 相关组件 | 许可证风险 |
+| ---------- | -------- | ---------- |
+|MIT|11|Low|
+|Apache-2.0|4|Low|
+|BSD-3-Clause|2|Low|
+
+
+
+
+## SBOM清单
+
+| 组件名称 | 组件版本 | 是否直接依赖 | 仓库 |
+| -------- | -------- | ------------ | ---- |
+|github.com/go-logfmt/logfmt|v0.6.0|间接依赖|go|
+|github.com/muesli/termenv|v0.15.2|间接依赖|go|
+|github.com/cloudwego/iasm|v0.2.0|间接依赖|go|
+|github.com/charmbracelet/lipgloss|v0.10.0|间接依赖|go|
+|github.com/mattn/go-runewidth|v0.0.15|间接依赖|go|
+|github.com/ohler55/ojg|v1.23.0|直接依赖|go|
+|github.com/google/go-cmp|v0.5.9|间接依赖|go|
+|github.com/cloudwego/base64x|v0.1.4|间接依赖|go|
+|golang.org/x/sys|v0.22.0|间接依赖|go|
+|golang.org/x/crypto|v0.25.0|直接依赖|go|
+|golang.org/x/arch|v0.0.0-20210923205945-b76863e36670|间接依赖|go|
+|github.com/bytedance/sonic|v1.12.1|直接依赖|go|
+|github.com/aymanbagabas/go-osc52/v2|v2.0.1|间接依赖|go|
+|github.com/lucasb-eyer/go-colorful|v1.2.0|间接依赖|go|
+|github.com/cespare/xxhash/v2|v2.2.0|间接依赖|go|
+|github.com/charmbracelet/log|v0.4.0|直接依赖|go|
+|github.com/dicedb/go-dice|v0.0.0-20240717053902-2a3e67c8bda0|直接依赖|go|
+|gotest.tools/v3|v3.5.1|直接依赖|go|
+|github.com/klauspost/cpuid/v2|v2.0.9|间接依赖|go|
+|github.com/bytedance/sonic/loader|v0.2.0|间接依赖|go|
+|github.com/mattn/go-isatty|v0.0.19|间接依赖|go|
+|github.com/rivo/uniseg|v0.4.7|间接依赖|go|
+|github.com/dgryski/go-rendezvous|v0.0.0-20200823014737-9f7001d12a5f|间接依赖|go|
+|github.com/twitchyliquid64/golang-asm|v0.15.1|间接依赖|go|
+|github.com/muesli/reflow|v0.3.0|间接依赖|go|
+|github.com/xwb1989/sqlparser|v0.0.0-20180606152119-120387863bf2|直接依赖|go|
+|github.com/twmb/murmur3|v1.1.8|直接依赖|go|
+|golang.org/x/exp|v0.0.0-20231006140011-7918f672742d|间接依赖|go|
+
+
+------
+
+*此检测报告由墨菲安全提供*
+
+[墨菲安全](www.murphysec.com)
